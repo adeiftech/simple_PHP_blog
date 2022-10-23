@@ -1,0 +1,18 @@
+[19-Jun-2020 16:56:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/teachfor/public_html/blog/includes/config.php:17
+Stack trace:
+#0 /home/teachfor/public_html/blog/includes/config.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/teachfor/public_html/blog/admin/index.php(3): require_once('/home/teachfor/...')
+#2 {main}
+  thrown in /home/teachfor/public_html/blog/includes/config.php on line 17
+[19-Jun-2020 16:56:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/teachfor/public_html/blog/includes/config.php:17
+Stack trace:
+#0 /home/teachfor/public_html/blog/includes/config.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/teachfor/public_html/blog/admin/add-user.php(2): require_once('/home/teachfor/...')
+#2 {main}
+  thrown in /home/teachfor/public_html/blog/includes/config.php on line 17
+[19-Jun-2020 16:57:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/teachfor/public_html/blog/includes/config.php:17
+Stack trace:
+#0 /home/teachfor/public_html/blog/includes/config.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/teachfor/public_html/blog/admin/users.php(3): require_once('/home/teachfor/...')
+#2 {main}
+  thrown in /home/teachfor/public_html/blog/includes/config.php on line 17
